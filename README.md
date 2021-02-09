@@ -1,4 +1,4 @@
-# shoes4Us
+# Shoes4Us
 
 ## This webiste basically for Shoes lovers, all top brands shoes you can get in one place.
 
