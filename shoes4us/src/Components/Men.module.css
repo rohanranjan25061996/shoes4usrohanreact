@@ -1,0 +1,98 @@
+.link {
+  width: 10%;
+  margin-top: 5%;
+  display: flex;
+  margin-left: 40%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.link__to__women {
+  width: 100%;
+  font-size: 25px;
+  background-color: #211407;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  padding: 1%;
+  padding: 8%;
+}
+
+.link__to__women:hover {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.conatiner {
+  width: 70%;
+  display: flex;
+  margin-top: 4%;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.main {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.img {
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+}
+
+.card {
+  box-shadow: 3px 3px 3px;
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.opps__go {
+  display: flex;
+  height: 50px;
+  background-color: #211407;
+}
+
+.opps__go:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.show {
+  display: flex;
+}
+.show h2 {
+  margin-left: 25%;
+  color: white;
+  opacity: 0.5;
+}
+
+.add__cart {
+  display: flex;
+  margin-left: 30%;
+  height: 45px;
+  background-color: #0f74aa; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 1px 1px 1px;
+  border-radius: 5px;
+}
+
+.add__cart:hover {
+  cursor: pointer;
+}

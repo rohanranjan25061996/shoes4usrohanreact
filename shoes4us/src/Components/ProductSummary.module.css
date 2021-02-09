@@ -1,0 +1,141 @@
+button {
+  cursor: pointer;
+}
+.summary_main_container {
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed #303030;
+  width: 50%;
+  height: 580px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background-color: #fff;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+.top_div > h2 {
+  margin-left: 15%;
+}
+.apply_coupen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.apply_coupen > input {
+  width: 200px;
+  height: 28px;
+  border: 1px dashed #303030;
+  background-color: #f6f6f6;
+  margin-left: 10%;
+}
+input::placeholder {
+  text-align: center;
+}
+.btn_apply,
+.btn_apply2 {
+  width: 100px;
+  height: 30px;
+  background-color: #f6f6f6;
+  color: #003a18;
+  border: 1px solid #303030;
+  margin-left: 2%;
+}
+.top_div > h4 {
+  text-align: center;
+  margin: 10px;
+}
+
+.price_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.item_price_cal > h4 {
+  margin-left: 30%;
+}
+.mrp_price,
+.dis_price,
+.coupen_dis {
+  display: flex;
+  flex-direction: row;
+  margin-left: 22%;
+}
+
+.show__price {
+  margin-top: 2.9%;
+  margin-left: 12%;
+}
+
+.dis_amnt {
+  color: green;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.btn_apply2 {
+  margin-top: 2%;
+}
+.final_amnt {
+  display: flex;
+  flex-direction: row;
+  margin-left: 22%;
+}
+
+.final_amnt h3 {
+  margin-left: 4%;
+  margin-top: 3.2%;
+}
+.place_order_btn {
+  width: 40%;
+  margin: auto;
+  height: 35px;
+  border: 1px solid #303030;
+  background-color: #f1c558;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 5%;
+}
+.go__back {
+  border: 5px solid red;
+  background-color: yellowgreen;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  position: absolute;
+  top: 60%;
+  left: 27%;
+}
+
+.take__add {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+  border: 1px solid black;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  height: 400px;
+  text-align: center;
+  background-color: yellow;
+  color: black;
+}
+
+.take__add > textarea {
+  margin-top: 4%;
+  width: 60%;
+}
+
+.take__add > input {
+  width: 60%;
+  height: 30px;
+}
+
+.add__btn {
+  border: none;
+  padding: 2%;
+}
