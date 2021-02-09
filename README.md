@@ -69,7 +69,7 @@ Here you can send me feedback, i will get in my personal email.
 <br>
 
 <h3>Vist this link....
-https://shoes4usrohan.netlify.app/contact
+https://shoes4usrohan.netlify.app
 <br>
 <br>
 
